@@ -2,6 +2,9 @@
     "title": "Resume",
     "name": "startbootstrap-resume",
     "version": "5.0.1",
+    "scripts": {
+        "dev": "npx browser-sync start --server --files \"index.html, css/*.css, js/*.js\""
+    },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
         "css",
